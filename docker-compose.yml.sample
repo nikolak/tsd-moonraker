@@ -2,6 +2,6 @@ version: "2.4"
 
 services:
   tsd-moonraker:
-    image: nikolak/tsd-moonraker
+    image: ghcr.io/nikolak/tsd-moonraker:main
     volumes:
       - /Users/nikola/config.ini:/app/config.ini

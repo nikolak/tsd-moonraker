@@ -11,3 +11,4 @@ dist
 .DS_Store
 *.ini
 venv
+docker-compose.yml

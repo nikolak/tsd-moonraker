@@ -10,7 +10,7 @@ To run the container:
 - Fill out the config as described in original readme below.
 - If you don't have the printer linked run following before the first run:
     - Run
-      first `docker run -it -v /Users/nikola/config.ini:/app/config.ini --entrypoint /bin/bash nikolak/tsd-moonraker`
+      first `docker run -it -v /Users/nikola/config.ini:/app/config.ini --entrypoint /bin/bash ghcr.io/nikolak/tsd-moonraker:main`
         - Replace `/Users/nikola/config.ini` with a full path to your own config
     - Now you're in the container and can run all commands needed.
     - Run `python3 -m tsd_moonraker.link -c config.ini` and follow instructions
